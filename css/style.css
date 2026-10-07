@@ -6400,3 +6400,29 @@ html:has(body.blog-page) {
         padding: 32px 22px;
     }
 }
+
+/* =========================
+   ADMIN LOGIN
+========================= */
+
+.admin-login-link {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+.admin-login-link a {
+    display: inline-block;
+    font-size: 11px;
+    color: #888;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.admin-login-link a:hover {
+    color: #c89b3c;
+    border-color: #c89b3c;
+}
